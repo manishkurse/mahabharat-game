@@ -21,6 +21,8 @@ export function Hub({ onPlayChallenge }: HubProps) {
           <span className="game-tile-desc">Coming soon!</span>
         </div>
       </div>
+
+      <footer className="site-footer">© {new Date().getFullYear()} Manish Kurse. All rights reserved.</footer>
     </div>
   );
 }
