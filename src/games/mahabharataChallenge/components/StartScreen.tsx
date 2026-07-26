@@ -9,7 +9,7 @@ interface StartScreenProps {
 const ROUND_OPTIONS = [10, 15, 20];
 
 export function StartScreen({ onStart, onBack }: StartScreenProps) {
-  const [lengthMode, setLengthMode] = useState<"untilAllCards" | "fixedRounds">("untilAllCards");
+  const [lengthMode, setLengthMode] = useState<"untilAllCards" | "fixedRounds">("fixedRounds");
   const [rounds, setRounds] = useState(15);
   const [difficulty, setDifficulty] = useState<ComputerDifficulty>("hero");
 
